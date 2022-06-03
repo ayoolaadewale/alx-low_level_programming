@@ -2,7 +2,7 @@
 
 /**
  *main - putting string out
- *return: zero
+ *Return: zero at the end
  */
 
 int main(void)
