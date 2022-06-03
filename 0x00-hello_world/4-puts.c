@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/*
- * main: puts string out 
- * return zero atthe end 
+/**
+ *main - putting string out
+ *return: zero
  */
 
 int main(void)
