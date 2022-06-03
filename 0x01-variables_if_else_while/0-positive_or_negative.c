@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  *main - Entry point, checking if a variable is  positive or negative
  *Return: Zero at the end
  */
@@ -10,9 +10,10 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n ==0)
+	if (n == 0)
 	{
 		printf("%d is zero\n", n);
 	}
