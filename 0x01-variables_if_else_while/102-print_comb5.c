@@ -18,9 +18,9 @@ int main(void)
 		{
 			for (tent = tens; tent <= 9; tent++)
 			{
-				for (unitt = unit + 1; unitt <=9; unitt++)
+				for (unitt = unit + 1; unitt <= 9; unitt++)
 				{
-					putchar(tent + '0');
+					putchar(tens + '0');
 					putchar(unit + '0');
 					putchar(' ');
 					putchar(tent + '0');
