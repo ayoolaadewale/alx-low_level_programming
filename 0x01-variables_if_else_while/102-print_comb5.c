@@ -22,7 +22,7 @@ int main(void)
 
 			if (!(tens == 98 && unit == 99))
 			{
-				putchar('.');
+				putchar(',');
 				putchar(' ');
 			}
 		}
