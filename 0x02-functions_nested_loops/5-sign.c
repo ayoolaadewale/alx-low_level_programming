@@ -6,7 +6,7 @@
  *Retun: Values to be returned based on outputs
  */
 
-int print_aign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -21,6 +21,6 @@ int print_aign(int n)
 	else
 	{
 		_putchar('-');
-		return ('-1');
+		return (-1);
 	}
 }
