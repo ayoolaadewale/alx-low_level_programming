@@ -3,15 +3,15 @@
 
 /**
  *_isalpha - Entry point
- *@c: Parameter to be checked
- *Return: Value to be returned based on the output
+ *@c: character to be checked
+ *Return: Value ot be returned at the end
  */
 
-int _isalpha(int c)
+int _isalpha(int c);
 {
-	int r; 
+	int r;
 
-	r = isalpha(c);
+	r= isalpha(c);
 
 	if (r == 0)
 	{
