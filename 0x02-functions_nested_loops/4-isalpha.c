@@ -11,7 +11,7 @@ int _isalpha(int c)
 {
 	int r;
 
-	r= isalpha(c);
+	r = isalpha(c);
 
 	if (r == 0)
 	{
