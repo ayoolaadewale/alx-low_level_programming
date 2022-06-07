@@ -6,7 +6,7 @@
 
 void print_alphabet_x10(void)
 {
-	int times; 
+	int times;
 	int c;
 
 	for (times = 1; times < 11; times++)
