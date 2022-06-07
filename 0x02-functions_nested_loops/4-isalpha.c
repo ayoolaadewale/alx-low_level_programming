@@ -7,7 +7,7 @@
  *Return: Value ot be returned at the end
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int r;
 
