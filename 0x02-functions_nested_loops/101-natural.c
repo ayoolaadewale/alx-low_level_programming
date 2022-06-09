@@ -16,6 +16,6 @@ int main(void)
 			value = value + n;
 		}
 	}
-	printf("%d", value);
+	printf("%d\n", value);
 	return (0);
 }
