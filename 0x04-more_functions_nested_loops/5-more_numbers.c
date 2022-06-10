@@ -2,11 +2,15 @@
 
 /**
  *more_numbers - Entry point
+ *@c: paramter one
+ *@d: paramter two
  */
 
 void more_numbers(void)
 {
-	int c, d;
+	int c;
+
+	int d;
 
 	for (c = 0; c < 10; c++)
 	{
