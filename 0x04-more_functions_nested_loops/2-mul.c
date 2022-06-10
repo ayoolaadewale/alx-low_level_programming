@@ -3,8 +3,8 @@
 
 /**
  *mul - Entry point
- *@a: Parameter 1
- *@b: Paramter 2
+ *@a: Parameter one
+ *@b: Paramter one
  *Return: Product
  */
 
@@ -14,5 +14,5 @@ int mul(int a, int b)
 
 	product = a * b;
 
-	return(product);
+return(product);
 }
