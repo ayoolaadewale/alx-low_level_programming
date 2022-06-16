@@ -1,0 +1,12 @@
+#include <unistd.h>
+
+/**
+*_putchar - entry point
+*@c: parameter
+*Return: one at the end
+*/
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
