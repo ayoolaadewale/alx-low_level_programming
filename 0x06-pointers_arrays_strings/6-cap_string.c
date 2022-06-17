@@ -1,15 +1,9 @@
 #include "main.h"
 
 /**
-<<<<<<< HEAD
  *cap_string -entry point
  *@n: parameter
- */
-
-void 
-=======
- *cap_string - entry point
- *@n: parameter
+ *Return: value
  */
 
 char *cap_string(char *n)
@@ -23,21 +17,21 @@ char *cap_string(char *n)
 	}
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		switch(n[i])
+		switch (n[i])
 		{
-			case ',';
-			case ';';
-			case '.';
-			case '!';
-			case '?';
-			case '"';
-			case '(';
-			case ')';
-			case '{';
-			case '}';
-			case ' ';
-			case '\n';
-			case '\t';
+			case ',':
+			case ';':
+			case '.':
+			case '!':
+			case '?':
+			case '"':
+			case '(':
+			case ')':
+			case '{':
+			case '}':
+			case ' ':
+			case '\n':
+			case '\t':
 				if (n[i + 1] > 96 && n[i + 1] < 123)
 				{
 					n[i + 1] = n[i + 1} = 32;
@@ -46,4 +40,3 @@ char *cap_string(char *n)
 	}
 return (n);
 }
->>>>>>> fa1e9eeb02fafd79147784789edeb9ec4f8e52f6
