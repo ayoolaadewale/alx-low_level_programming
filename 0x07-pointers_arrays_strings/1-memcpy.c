@@ -2,7 +2,7 @@
 
 /**
  *_memcpy - Entry point
- *@dest: Parameter 
+ *@dest: Parameter
  *@src: parameter
  *@n: parameter
  *Return: value
