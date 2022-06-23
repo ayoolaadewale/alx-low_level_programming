@@ -12,9 +12,9 @@ int find_prime(int n, int x)
 	x = 2;
 
 	if (n % x != 0)
-		return 1;
+		return (1);
 	if (n % x == 0)
-		return 0;
+		return (0);
 	return (find_prime(n, x + 1));
 }
 
@@ -27,6 +27,6 @@ int find_prime(int n, int x)
 int is_prime_number(int n)
 {
 	if (n < 2)
-		return 0;
+		return (0);
 	return (find_prime(n, 2));
 }
