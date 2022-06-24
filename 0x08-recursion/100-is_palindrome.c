@@ -12,7 +12,7 @@ int reverse_array(char *beginning, char *end)
 	if (beginning >= end)
 		return (1);
 	if (*beginning == *end)
-		return (compare(beginning + 1, end - 1));
+		return (reverse_array(beginning + 1, end - 1));
 	return (0);
 }
 
@@ -27,7 +27,7 @@ int strn_length(char *s)
 	if (*s == '\0')
 		return (0);
 	s++;
-	return (1 + (str_length(s)));
+	return (1 + (strn_length(s)));
 }
 
 /**
