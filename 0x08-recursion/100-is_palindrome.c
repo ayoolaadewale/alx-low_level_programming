@@ -3,7 +3,7 @@
 /**
  *reverse_array - Entry point
  *@beginning: argument one
- *end:argument two
+ *@end:argument two
  *Return: value
  */
 
