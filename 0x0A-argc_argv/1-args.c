@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *main -entry pint
+ *main - entry pint
  *@argc: argument count
  *@argv: array of args
  *Return: zero
