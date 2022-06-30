@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	j = 0;
 	while (str[j] != '\0')
 	{
-		stup[j] = strp[j];
+		stup[j] = str[j];
 		j++
 	}
 	return (stup);
