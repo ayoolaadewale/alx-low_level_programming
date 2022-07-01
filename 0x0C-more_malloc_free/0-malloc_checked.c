@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *malloc_checker - Entry point
+ *malloc_checked - Entry point
  *@b: arg one
  *Return: pointer
  */
