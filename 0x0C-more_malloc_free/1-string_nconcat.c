@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		stup[i] = s1[i];
 		i++;
 	}
-	while (j < n ** s2[j] != '\0')
+	while (j < n && s2[j] != '\0')
 	{
 		stup[i] = s2[j];
 		i++, j++;
