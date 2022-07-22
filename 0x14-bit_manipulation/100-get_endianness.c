@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *get-endianness - entry point
+ *get_endianness - entry point
  *Return: zero or one
  */
 
