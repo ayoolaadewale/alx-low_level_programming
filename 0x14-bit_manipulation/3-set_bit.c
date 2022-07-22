@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ *set_bit - entry point
+ *@n: arg one
+ *@index: arg two
+ *Return: one for success or minus one for failure
+ */
+
+int set_bit(unsigned long int *n, unsigned int index)
+{
+	if (index > (8 * sizeof(*n)) - 1)
+		return (-1);
+	*n = *n | (1 << index);
+	return (1);
+}
