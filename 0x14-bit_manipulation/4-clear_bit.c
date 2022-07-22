@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *claer_bit - entry point
+ *clear_bit - entry point
  *@n: arg one
  *@index: arg two
  *Return: one or minus one
