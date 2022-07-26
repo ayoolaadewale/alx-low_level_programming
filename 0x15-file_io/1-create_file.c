@@ -28,11 +28,11 @@ int create_file(const char *filename, char *text_content)
 		length = 0;
 		while (*(text_content + length) != '\0')
 			length++;
-		res_write = write(fd, text_contentm length);
+		res_write = write(fd, text_content, length);
 		if (res_write == -1)
 		{
-			write(1, "fails", 6)
-				return (-1);
+			write(1, "fails", 6);
+			return (-1);
 		}
 	}
 	close(fd);
