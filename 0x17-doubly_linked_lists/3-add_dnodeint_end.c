@@ -6,14 +6,14 @@
  * @n: value of new node
  * Return: address of new node or null if its fails
  **/
-dlisint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new, *tmp;
 
 	new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
 	return (NULL);
-	new-> n = n;
+	new->n = n;
 	new->prev = NULL;
 	new->next = NULL;
 
